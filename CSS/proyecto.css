@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: auto;
+    
+}
+.img-html{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+.menu{
+    margin: auto;
+    position: relative;
+    float: left;
+}
+.cb{
+    clear: both;
+}
+.menu div{
+    border: 1px solid orange;
+    display: block;
+    padding: 10px;
+    width: 100%;
+    text-align: justify;
+}
+.start{
+    text-align: center;
+    width: 75%;
+    height: 500px;
+    margin: 10px auto;
+    
+}
+.article-parrafo{
+    text-align: justify;
+    width: 75%;
+    height: 1000px;
+    margin: 10px auto;
+    background-color: aqua;
+    
+}
+.article-tablas{
+    text-align: justify;
+    width: 75%;
+    height: 1120px;
+    margin: 10px auto;
+    background-color: rgba(42, 117, 117, 0.164);
+    
+}
+
+.s1{
+    color: red;
+    text-size-adjust: 2px;
+    font-size: x-large;
+
+}
+.s2{
+    color: rgb(16, 196, 43);
+    text-size-adjust: 2px;
+    font-size: x-large;
+}
+footer {
+    background-color: rgb(0, 97, 129);
+    position: fixed;
+    bottom: 0;
+    height: 55px;
+    width: 100%;
+    text-align: center;  
+}
+.h1footer{
+    color: white;
+}
+table{
+    border-collapse: collapse;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+}
+
+table.t1 th {
+    border-collapse: collapse;
+    border: 2px solid rgb(200,200,200);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+  }
+  
+  table.t1 td {
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
+   
+
+  
+  }
+  table.t2 th {
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+
+  }
+  table.t2 td{
+    background-color: rgb(105, 217, 237);
+    color: black;
+    border: 1px solid rgb(190,190,190);
+
+  }
+  table.t3 th {
+    border: 1px solid white;
+    background-color: coral;
+    color: black;
+    padding: 10px 20px;
+
+  }
+  table.t3 tr:nth-child(even) td {
+    background-color: rgb(250,250,250);
+  }
+  
+  table.t3 tr:nth-child(odd) td {
+    background-color: rgb(169, 120, 120);
+  }
+  table.t4 {
+    border-collapse: collapse;
+    border: thin solid rgb(200,200,200);
+    letter-spacing: thin ;
+    font-size: 0.8rem;
+  }
+  
+  table.t4 td, th {
+    border: thin solid rgb(130, 98, 98);
+    padding: 10px 20px;
+  }
+  
+  table.t4 th {
+    background-color: rgb(251, 251, 251);
+    text-align: center;
+  }
+  
+  table.t4 td {
+    text-align: center;
+    
+  }
+  #PR
+  {
+    background-color: rgb(249, 213, 145);
+  }
+  #BD
+  {
+    background-color: rgb(118, 194, 107);
+  }
+  #FOL
+  {
+    background-color: rgb(91, 178, 232);
+  }
+  #SIF
+  {
+    background-color: rgb(235, 161, 169);
+  }
+  #EW
+  {
+    background-color: rgb(46, 149, 164);
+  }
+  #LM
+  {
+    background-color: rgb(240, 244, 140);
+  }

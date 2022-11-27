@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/proyecto.css"/>
+    <title>Proyecto de Lenguaje de marcas</title>
+
+</head>
+<body>
+    <header>
+        <div class="img-html">
+            <img src="img/img/html5.png" width="100%" />
+        </div>
+    </header>
+    <menu></menu>
+    <aside>
+        <div class="menu">
+            <div class="home"><a href="home.html">Home</a></div>
+            <div class="parrafos"><a href="parrafo.html">Parrafos</a></div>
+            <div class="enlaces"><a href="">Enlaces</a></div>
+            <div class="tablas"><a href="Tablas.html">Tablas</a></div>
+            <div class="formularios"><a href="">Formularios</a></div>
+            <div class="multimedia"><a href="">Multimedia</a></div>
+            <div class="html5"><a href="">Form html5</a></div>
+      </div>
+    </aside>
+    <article>
+    <div class="article-tablas">
+        <h1>Tablas en HTML5 </h1>
+        <p>Para realizar una tabla necesitamos las siguientes etiquetas:<span class="s1">table, theand, tr, th, tbody, td, caption.</span> </p>
+        <table>   
+        <tr>
+                <th>Horario</th>
+                <th>First</th>
+                <th>Last</th>
+                <th>Handle</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>mark@mdo</td>
+                
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Jacob</td>
+                <td>Thortom</td>
+                <td>jacob@fat</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Larry</td>
+                <td>The bird</td>
+                <td>larry@twitter</td>
+                
+            </tr>
+        </table> 
+        <hr>
+        <table class="t1">
+            <caption>Colspan y Rowspan</caption>
+            <thead >
+            <tr>
+                <th>Horario</th>
+                <th>First</th>
+                <th>Last</th>
+                <th>Handle</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <th rowspan="3">@mdo</th>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Jacob</td>
+                <td>Thortom</td>
+            </tr>
+            <tr>
+                <th colspan="2">3</th>
+                <td>The bird</td>
+            </tr>
+            </tbody>
+        </table>
+        <hr>
+        <table class="t2">
+            <caption>Distinguir th y td</caption>
+            <tr>
+                <th>Horario</th>
+                <th>First</th>
+                <th>Last</th>
+                <th>Handle</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>mark@mdo</td>
+                
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Jacob</td>
+                <td>Thortom</td>
+                <td>jacob@fat</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Larry</td>
+                <td>The bird</td>
+                <td>larry@twitter</td>
+                
+            </tr>
+
+
+        </table>
+        <hr>
+        <table class="t3">
+            <caption>Colores alternos filas pares e impares</caption>
+            <tr>
+                <th>Horario</th>
+                <th>First</th>
+                <th>Last</th>
+                <th>Handle</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>mark@mdo</td>
+                
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Jacob</td>
+                <td>Thortom</td>
+                <td>jacob@fat</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Larry</td>
+                <td>The bird</td>
+                <td>larry@twitter</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>mark@mdo</td>
+                
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Jacob</td>
+                <td>Thortom</td>
+                <td>jacob@fat</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Larry</td>
+                <td>The bird</td>
+                <td>larry@twitter</td>
+            </tr>
+        </table>
+        <hr>
+        <table class="t4"><thead>DESARROLLO DE APLICACIONES WEB - FP 2022</thead>
+            <tr>
+                <th>/-\</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+                <tbody>
+                <tr>
+                     <td>9:00  9:50</td>
+                    <td id="EW">ENTORNOS WEB</td>
+                    <td id="PR" rowspan="2">PROGRAMACION I</td>
+                    <td id="BD"  rowspan="2">BASE DE DATOS </td>
+                    <td id="PR" rowspan="2">PROGRAMACION I</td>
+                    <td id="SIF" rowspan="2"> SISTEMAS INFORMATICOS</td>
+                </tr>
+                <tr>
+                    <td>9:50  10:45</td>
+                    <td id="BD">BASE DE DATOS</td>
+                   
+                </tr>
+                <tr>
+                    <td>10:50  11:40</td>
+                    <td id="PR">PROGRAMACION I</td>
+                    <td id="FOL">FOL I</td>
+                    <td id="SIF">SISTEMAS INFORMATICOS</td>
+                    <td id="FOL">FOL I</td>
+                    <td id="EW">ENTORNOS WEB</td>
+                    
+                </tr>
+                <td>11:40  12:05</td>
+                <th colspan="5">RECREO</th>
+                <tr>
+                    <td>12:05 12:55</td>
+                    <td id="PR">PROGRAMACION I</td>
+                    <td id="FOL">FOL I</td>
+                    <td id="SIF">SISTEMAS INFORMATICOS</td>
+                    <td id="BD">BASE DE DATOS</td>
+                    <td id="EW">ENTORNOS WEB</td>
+                    </tr>
+                <tr>
+                    <td>12:55 13:50</td>
+                    <td id="LM" rowspan="2">LENGUAJE DE MARCAS</td>
+                    <td id="BD" rowspan="2">BASE DE DATOS</td>
+                    <td id="LM" rowspan="2">LENGUAJE DE MARCAS</td>
+                    <td id="SIF" rowspan="2">SISTEMAS INFORMATICOS</td>
+                    <td id="PR" rowspan="2">PROGRAMACION I</td>
+                </tr>
+                <tr>
+                    <td>13:50  14:45</td>
+                    
+                </tr>
+                </tbody>
+        </table>
+
+    </div>
+    <footer><h1 class="h1footer">DAW 2022 - © Pickle Rick Team</h1></footer>
+
+</body>
+</html>
