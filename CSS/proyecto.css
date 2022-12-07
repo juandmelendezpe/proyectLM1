@@ -37,13 +37,13 @@ body {
     width: 75%;
     height: 1000px;
     margin: 10px auto;
-    background-color: aqua;
+    background-color: rgba(42, 117, 117, 0.164);
     
 }
 .article-tablas{
     text-align: justify;
     width: 75%;
-    height: 1120px;
+    height: 1200px;
     margin: 10px auto;
     background-color: rgba(42, 117, 117, 0.164);
     
